@@ -303,6 +303,8 @@ main {
     margin-top: 80px;
     font-size: 30px;
 }
+
+/*
 .img__izq { 
     width: 400px;
      height: 100%;
@@ -323,7 +325,7 @@ main {
      height: 100%
 }
 .footer { height: 170px;
-}
+}*/
 .anuncio { display: flex;
     max-height: 20px;
     max-width: 1200px;
