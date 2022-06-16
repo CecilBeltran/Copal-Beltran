@@ -13,37 +13,48 @@
 </head>
 <body >
 <header >
-    <img src="../IMAGENES/logo.jpg"id="logo__copal" >
-    <nav >
-        <ul class="menu__link">
-            <li>
-                <a href=""><img src= "../IMAGENES/lupa2.png" class="menu__link__imagen"></a>
-            </li>
-            <li>
-                <a href="3_CONTACTO.html">CONTACTO</a>
-            </li>
-        </ul>
-    </nav>
-</header> 
-<section class="menu__paginas" >
-    <nav >
-        <ul>
-            <li>
-                <a href="./4_SAUMADORES.html">SAUMADORES</a>
-            </li>
-            <li>
-                <a href="./5_INCIENSOS.html">INCIENSOS</a>
-            </li>
-            <li>
-                <a href="../index.html">Inicio</a>
-            </li>
-        </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href=""><img class="w-50 p-3" src="../IMAGENES/logo.jpg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 link-secondary">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./PAGINAS/3_CONTACTO.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./PAGINAS/2_QUIENES_SOMOS.html">Quienes Somos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Páginas
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./PAGINAS/4_SAUMADORES.html">Saumadores</a></li>
+                  <li><a class="dropdown-item" href="./PAGINAS/5_INCIENSOS.html">Inciensos</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"></a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+</header>
     <div class="titulo"><h1>QUIENES SOMOS</h1></div>
 </section>   
  <main class="box__quienes">  
     <div class="fondo__quienes"> <img src="../IMAGENES/3_FOTO_COPAL.JPG" class="img__fondo__quienes"> </div>
-    <span id="reseña"><p>Somos una empresa familiar que está dedicada a ofrecer inciensos y productos naturales; trabajando con la madre Tierra, la sustentabilidad, la ecología , el uso consciente y el trabajo justo.</p></span>
+    <span id="reseña" class="fst-italic"><p>Somos una empresa familiar que está dedicada a ofrecer inciensos y productos naturales; trabajando con la madre Tierra, la sustentabilidad, la ecología , el uso consciente y el trabajo justo.</p></span>
     <div class="video"><video src="../IMAGENES/video.MP4" autoplay muted loop></video></div>
 </main> 
 <footer>
@@ -51,7 +62,7 @@
         <span ><p>ENVIOS GRATIS EN COMPRAS MAYORES DE $1500</p></span></section>
     <div class="menu__iconos__redes">
         <a href="https://www.facebook.com/copalarmonia-101497228962949/"><img src="../IMAGENES/facebook.png"class="icono__redes"></a>    
-        <a href="https://www.instagram.com/copalarmonia/"><img src="../IMAGENES/instagram.jpg" class="icono__redes"></a>  
+        <a href="https://www.instagram.com/copalarmonia/"><img src="../IMAGENES/instagram.png" class="icono__redes"></a>  
         <a href=""><img src="../IMAGENES/whatsapp.png" class="icono__redes"> </a>
     </div>   
 </footer>
