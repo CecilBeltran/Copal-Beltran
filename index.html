@@ -7,6 +7,7 @@
     <title>COPAL</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/index.css">
@@ -50,7 +51,8 @@
         </div>
       </nav>
     </header> 
-    <main >                  
+    <main id="pag__home">
+      <section class="contenedor__carrousel">                  
         <div class="texto">
             <p>PRODUCTOS PARA ARMONIZAR
              TU HOGAR Y TU VIDA
@@ -75,7 +77,40 @@
               </div>
             </div>
           </div>
-    </main>                               
+      </section>    
+      <section id="cards" class="contenedor" >
+          <article class="box">
+              <picture class="box__img" data-aos="zoom-in-up">
+                  <img  src="./IMAGENES/incienso-bol.jpg" alt="Incienso encendido">
+              </picture>
+              <div class="box__info">
+                  <h2 class="box__title">Inciensos</h2>
+                  <h3 class="box__subtitle">Usos domésticos del Incienso</h3>
+                  <p class="box__text">Las propiedades aromáticas del incienso hacen frecuente su uso para la armonización de los espacios. Por eso, en el plano doméstico, son empleados para retirar energías negativas de un hogar, propiciar el flujo económico positivo y procurar la armonía en las relaciones personales de quienes allí viven. Algunas personas incluso lo emplean para aliviar problemas de insomnio, por el ambiente de esperanza y paz que suscitan algunas de sus combinaciones.</p>
+              </div>
+          </article>
+          <article class="box">
+              <picture class="box__img" data-aos="zoom-in-up">
+                  <img  src="./IMAGENES/saumar.jpg" alt="saumador humeante">
+              </picture>
+              <div class="box__info">
+                  <h2 class="box__title">Saumadores</h2>
+                  <h3 class="box__subtitle">Significado material y espiritual</h3>
+                  <p class="box__text">Según los expertos de Alhumo, “Sahumar significa quemar elementos naturales (plantas, resinas, maderas o flores en cualquier presentación) con una intención o propósito expreso. Combina la materia y el espíritu: la materia de los elementos naturales y de tus movimientos corporales y el espíritu de tus pensamientos e intenciones interactuando con la energía y vibraciones del ambiente”.</p>
+              </div>
+          </article>
+          <article class="box">
+              <picture class="box__img" data-aos="zoom-in-up">
+                  <img src="./IMAGENES/lavanda-manzanilla.jpg" alt="ramoo de lavanda y manzanilla">
+              </picture>
+              <div class="box__info">
+                  <h2 class="box__title">Lavanda y Manzanilla</h2>
+                  <h3 class="box__subtitle">Efectos positivos</h3>
+                  <p class="box__text">Tanto la Lavanda como la Manzanilla comparten diversas propiedades, como sus efectos relajantes. La Lavanda se destaca por su uso en aromaterapiaEstudios recientes indican que el aceite esencial de lavanda tiene la capacidad de inducir la calma un estado necesario para lograr conciliar el sueño. La Manzanilla disminuye las señales de estres y/o ansiedad, facilita la regulación gastrointestinal y ayuda a la cicatrización de la piel.</p>
+              </div>
+          </article>
+      </section> 
+</main>                             
 <footer >
         <section class="anuncio "> 
             <span><p> ENVIOS GRATIS EN COMPRAS MAYORES DE $1500</p></span></section>
@@ -86,5 +121,9 @@
         </div>   
 </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-</body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>

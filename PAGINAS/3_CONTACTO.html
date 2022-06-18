@@ -13,26 +13,42 @@
 </head>
 <body>
  <header>
-    <img src="../IMAGENES/logo.jpg" id="logo__copal">
-    <nav>
-        <ul class="menu__link" >
-            <li>
-                <a href=""><img src= "../IMAGENES/lupa2.png" class="menu__link__imagen" ></a>
-            </li>
-            <li>
-                <a href="2_QUIENES_SOMOS.html"  >QUIENES SOMOS</a>
-            </li>
-            <li>
-                <a href="3_CONTACTO.html" >CONTACTO</a>
-            </li>
-            <li>
-                <a href=""><img src="../IMAGENES/bolsa.png" class="menu__link__imagen"></a>
-            </li>
-            <li>
-                <a href="../index.html"><img src="../IMAGENES/inicio.png" alt="" class="menu__link__imagen" ></a> 
-            </li>
-        </ul>
-    </nav>    
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href=""><img class="w-50 p-3" src="../IMAGENES/logo.jpg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 link-secondary">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="3_CONTACTO.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="2_QUIENES_SOMOS.html">Quienes Somos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Páginas
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="4_SAUMADORES.html">Saumadores</a></li>
+                  <li><a class="dropdown-item" href="5_INCIENSOS.html">Inciensos</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"></a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
  </header>
     <div class="titulo"><H1>CONTACTO</H1></div>
     <main class="box__contacto">  
