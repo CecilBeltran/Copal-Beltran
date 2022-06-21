@@ -8,18 +8,27 @@
 
     /*spacing*/
     --spacing-large: 50px;
-    --spacing-
+    --spacing-medium: 20px;
+    --spacing-small: 10px;
+    --spacing-xsmall: 5px;
 
+    /*colors*/
+    
+    --text-alternative: rgba(147, 142, 136, 0.194);
+    --text-color:black;
+    --base:  rgb(248, 237, 223);
 }
-*{ 
+
+ *{ 
     margin: auto;
-    padding: 0;
+    padding: 0; 
     box-sizing:border-box; 
     max-width: 100%;
     max-height: 100%;
 }
+
 body { 
-    background-color: rgb(248, 237, 223);
+    background-color: var(--base);
     font-family: 'Roboto Flex', sans-serif; 
     max-width: 1200px; 
     max-height: 100%;
@@ -44,7 +53,7 @@ h1 {
     font-size: 40; 
     text-align: end;
     padding-right: 100px;
-    padding-bottom: 50px;
+    padding-bottom: var(--spacing-large);
     height: 20px;
     width: 100%;
 }
@@ -55,8 +64,8 @@ h1 {
     display:flex;
     position: relative; 
     flex-direction: row;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: var(--spacing-medium);
+    margin-top: var(--spacing-medium);
     gap: 100px;
     align-content: space-around; 
     justify-content: center;
@@ -67,22 +76,22 @@ h1 {
     margin: auto; 
     width: 300px;
     height: 100%;
-    background-color: rgba(147, 142, 136, 0.194);
-    padding: 10px 20px;
+    background-color: var(--text-alternative);
+    padding: var(--spacing-small) var(--spacing-medium);
     border-radius: 7px;
     box-sizing: border-box;
-    margin-top: 10px;  
+    margin-top: var(--spacing-small);  
 }
 h2 { 
     color:aliceblue;
     text-align: center;
     margin:0;
-    font-size: 30px;
-    margin-bottom: 10px;
+    font-size: var(--text-large);
+    margin-bottom: var(--spacing-small);
 }
 input, textarea {  
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: var(--spacing-medium);
     padding: 7px;
 }
 textarea { 
@@ -90,17 +99,17 @@ textarea {
 }
 .boton__contacto { 
     background: #648565;
-    padding: 10px;
+    padding: var(--spacing-small);
     width: 100%;
-    margin: 5px;
+    margin: var(--spacing-xsmall);
 }
 .box__mapa { 
-    margin: 5px; 
+    margin: var(--spacing-xsmall); 
     margin-right: 80px;
     height: 100%;      
 }
 .reseña {
-    color: black; 
+    color:var(--text-color); 
 }
 .imagen__incienso {
     max-width: 1200px;
@@ -168,7 +177,7 @@ textarea {
     flex-wrap: wrap;
     max-width: 1200px; 
     height: auto;
-    margin-bottom: 50px;
+    margin-bottom: var(--spacing-large);
 }
 .galeria{  
     height:auto auto; 
@@ -184,13 +193,13 @@ textarea {
     width: 200px;
     height: 300px;
     text-align: center;
-    padding: 5px;
-    margin: 5px;
+    padding: var(--spacing-xsmall);
+    margin: var(--spacing-xsmall);
     display: inline-block; 
     font-family: Arial, Helvetica, sans-serif; 
-    font-size: 14; 
+    font-size: var(--text-small); 
     font-weight: 300; 
-    color:black;
+    color:var(--text-color);
     justify-content: center;
     align-content: center; 
     box-sizing: border-box; 
@@ -201,15 +210,15 @@ textarea {
 }
 .galeria__card p { 
     margin: 0px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: var(--spacing-xsmall);
+    padding-bottom: var(--spacing-xsmall);
     height: auto;
 }
 .boton__comprar { 
-    background-color:rgb(248, 237, 223);
+    background-color:var(--base);
     color: black;
     border: #f5f8f5;
-    padding: 10px;
+    padding: var(--spacing-small);
   } 
 .box__encabezado { 
     width: 1200px; 
@@ -240,7 +249,7 @@ main {
 #pag__home {
     max-width: 1200px;
     margin: 0 auto;
-    margin-top:50px; 
+    margin-top:var(--spacing-large); 
     display: inline-block;
 }
 .contenedor__carrousel {  
@@ -266,7 +275,7 @@ main {
 .box {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: var(--spacing-medium);
     flex: 1 1 clamp(300px, 30%, 400px);
     margin-top: 0;
 }       
@@ -277,40 +286,40 @@ main {
 }
     
 .box__title {
-    font-size: 30px;
-    color: black;
+    font-size: var(--text-large);
+    color: var(--text-color);
 }
     
 .box__subtitle {
     margin-top: .6rem;
-    color: rgb(69, 68, 67);
-    font-size: 20px;
+    color: var(--text-alternative);
+    font-size: var(--text-medium);
 }
     
 .box__text {
     margin-top: 1rem;
-    color: rgb(51, 49, 47);
+    color: var(--text-alternative);
     font-size: 15px;
     }
 #carouselExampleSlidesOnly {  
-    margin-right: 50px;
+    margin-right: var(--spacing-large);
     width: 60%; 
     height: 80%;}
 
 .container-fluid {
-    background-color:rgb(248, 237, 223); 
+    background-color:var(--base); 
     filter: brightness(1.1);
     mix-blend-mode: multiply; max-height: 100%;
 }
 .navbar-expand-lg  {
     filter: brightness(1.1);
     mix-blend-mode: multiply; 
-    font-size: 20px;
+    font-size: var(--text-medium);
     max-height: 100%; 
 }
 .texto  {  
     color: rgb(5, 48, 18);
-    margin: 5px;
+    margin: var(--spacing-xsmall);
     font-weight:600;
     width:40%; 
     flex-wrap: wrap;
@@ -323,7 +332,7 @@ main {
     top: 20%;
     margin: 40px;
     margin-top: 80px;
-    font-size: 30px;
+    font-size: var(--text-large);
 }
 .contenedor__carrousel { 
     align-content: flex-start;
@@ -346,7 +355,7 @@ footer {
     width: 30px; 
     height: 30px;
     margin: 25px;
-    row-gap: 10px;
+    row-gap: var(--spacing-small);
 }
 .menu__iconos__redes{ 
     display: flex;
@@ -378,12 +387,12 @@ footer {
     line-height: normal;
 }
 #reseña p {
-    top: 50px;  
+    top: var(--spacing-large);  
     text-align: justify; 
     width: 100%; 
     display: inline-block;
-    margin: 50px;
-    font-size: 30px;
+    margin: var(--spacing-large);
+    font-size: var(--text-large);
 }
 .video {
     justify-content: right; 
@@ -409,7 +418,7 @@ video { width: 100%;
    }
 }
 @media screen and (max-width:1000px ){ 
-    body {  background-color: rgb(248, 237, 223);
+    body {  background-color: var(--base);
     } 
 }
 
@@ -443,7 +452,7 @@ video { width: 100%;
 }
            
 @media screen and (max-width: 900px) { 
-    .texto p {  font-size: 20px; 
+    .texto p {  font-size: var(--text-medium); 
         box-sizing: border-box; 
         padding: 1%; 
         height: 30%;
@@ -451,7 +460,7 @@ video { width: 100%;
     }
 }
 @media screen and (max-width: 640px) { 
-    .texto p {  font-size: 10px; 
+    .texto p {  font-size: var(--text-xsmall); 
     }
 }
 @media screen and (max-width: 900px) { 
@@ -459,19 +468,19 @@ video { width: 100%;
     }
 }
 @media screen and (max-width: 900px) { 
-    #reseña { margin-top: 10px; max-width: 75%; height: 50%;
-        font-size: 10px; 
+    #reseña { margin-top: var(--spacing-small); max-width: 75%; height: 50%;
+        font-size: var(--text-xsmall); 
     }
 }
 
 @media screen and (max-width: 900px) { 
     .box__quienes { flex-direction: column; 
         align-items: center; 
-        gap: 20px;  
+        gap: var(--spacing-medium);  
     }
 }
 @media screen and (max-width: 900px) { 
-    #reseña p{ font-size: 10px;
+    #reseña p{ font-size: var(--text-small);
          margin: 5% ;
          max-width: 50%x; 
          height: 50%; 
@@ -485,11 +494,11 @@ video { width: 100%;
 }
 
 @media screen and (max-width: 600px) { 
-    h1 { font-size: 20px;
+    h1 { font-size: var(--text-medium);
     }
 }
 @media screen and (max-width: 450px) { 
-    .texto p {  font-size: 10px; 
+    .texto p {  font-size: var(--text-xsmall); 
         box-sizing: border-box; 
         padding: 1%; 
         height: 30%;
@@ -497,7 +506,7 @@ video { width: 100%;
 }
 
 @media screen and (max-width: 400px) { 
-    .anuncio p{  font-size: 10px; 
+    .anuncio p{  font-size: var(--text-xsmall); 
     }
 }
 

@@ -1,4 +1,8 @@
 /* MISC*/
+/*VARIABLES*/
+/*font size*/
+/*spacing*/
+/*colors*/
 /*NORMALIZE*/
 * {
   margin: auto;
@@ -98,7 +102,7 @@ footer {
     max-height: 400px;
     align-content: stretch;
     scroll-behavior: smooth; }
-    .saumadores__galeria .galeria .galeria__card {
+    .saumadores__galeria .galeria__card {
       width: 200px;
       height: 300px;
       text-align: center;
@@ -106,21 +110,21 @@ footer {
       margin: 5px;
       display: inline-block;
       font-family: Arial, Helvetica, sans-serif;
-      font-size: 14;
+      font-size: 10px;
       font-weight: 300;
       color: black;
       justify-content: center;
       align-content: center;
       box-sizing: border-box; }
-      .saumadores__galeria .galeria .galeria__card .boton__comprar {
+      .saumadores__galeria .galeria__card .boton__comprar {
         background-color: #f8eddf;
         color: black;
         border: #f5f8f5;
         padding: 10px; }
-      .saumadores__galeria .galeria .galeria__card img {
+      .saumadores__galeria .galeria__card img {
         width: 150px;
         height: 150px; }
-      .saumadores__galeria .galeria .galeria__card p {
+      .saumadores__galeria .galeria__card p {
         margin: 0px;
         padding-top: 5px;
         padding-bottom: 5px;
