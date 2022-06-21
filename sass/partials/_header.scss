@@ -1,0 +1,15 @@
+header {
+    display: flex ;
+    align-items: center; 
+    justify-content: space-between;
+    font-family: 'Roboto Flex', sans-serif;
+    max-width: 1200px; 
+    max-height: 100%;
+    
+    .navbar-expand-lg  {
+        filter: brightness(1.1);
+        mix-blend-mode: multiply; 
+        font-size: 20px;
+        max-height: 100%; 
+    }
+}

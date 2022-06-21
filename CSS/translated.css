@@ -1,0 +1,127 @@
+/* MISC*/
+/*NORMALIZE*/
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  max-height: 100%; }
+
+body {
+  background-color: #f8eddf;
+  font-family: 'Roboto Flex', sans-serif;
+  max-width: 1200px;
+  max-height: 100%;
+  margin: auto;
+  padding: 0; }
+
+h1 {
+  font-weight: 300;
+  font-size: 40;
+  text-align: end;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  height: 20px;
+  width: 100%; }
+
+h2 {
+  color: aliceblue;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 10px; }
+
+main {
+  display: flex;
+  flex-flow: row;
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 80px; }
+
+video {
+  width: 100%;
+  height: 100%; }
+
+/* PARTIALS*/
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Roboto Flex', sans-serif;
+  max-width: 1200px;
+  max-height: 100%; }
+  header .navbar-expand-lg {
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    font-size: 20px;
+    max-height: 100%; }
+
+footer {
+  height: 170px; }
+  footer .anuncio {
+    display: flex;
+    max-height: 20px;
+    max-width: 1200px;
+    background-color: #29af82;
+    font-size: medium;
+    justify-content: center;
+    text-align: center; }
+  footer .menu__iconos__redes {
+    display: flex;
+    max-width: 1175px;
+    max-height: 130px;
+    flex-direction: row;
+    justify-items: center; }
+  footer .icono__redes {
+    justify-items: flex-end;
+    width: 30px;
+    height: 30px;
+    margin: 25px;
+    row-gap: 10px; }
+
+/* VIEWS */
+/*saumadores*/
+.saumadores__galeria {
+  display: flex;
+  max-width: 1200px;
+  height: auto;
+  margin-bottom: 50px; }
+  .saumadores__galeria .galeria {
+    height: auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    max-width: 1200px;
+    max-height: 400px;
+    align-content: stretch;
+    scroll-behavior: smooth; }
+    .saumadores__galeria .galeria .galeria__card {
+      width: 200px;
+      height: 300px;
+      text-align: center;
+      padding: 5px;
+      margin: 5px;
+      display: inline-block;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14;
+      font-weight: 300;
+      color: black;
+      justify-content: center;
+      align-content: center;
+      box-sizing: border-box; }
+      .saumadores__galeria .galeria .galeria__card .boton__comprar {
+        background-color: #f8eddf;
+        color: black;
+        border: #f5f8f5;
+        padding: 10px; }
+      .saumadores__galeria .galeria .galeria__card img {
+        width: 150px;
+        height: 150px; }
+      .saumadores__galeria .galeria .galeria__card p {
+        margin: 0px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        height: auto; }
