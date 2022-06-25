@@ -143,8 +143,8 @@ textarea {
  max-height: 400px;
  margin-top: 60px;
 }
-.imag__fondo__quienes {
- max-height: 400px;  
+.imagen__fondo__quienes {
+   height: 400px;
 }
 .box__form__form {  
  width: 100%;
