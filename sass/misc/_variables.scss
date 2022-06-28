@@ -13,9 +13,22 @@ $spacing-medium: 20px;
 $spacing-small: 10px;
 $spacing-xsmall: 5px;
 
+$spacing : (
+    spacing-large: 50px,
+    spacing-medium: 20px,
+    spacing-small: 10px,
+    spacing-xsmall: 5px,
+);
+
+
+
 /*colors*/
-    
-$text-alternative:  rgba(12, 15, 12, 0.194);
+$text-primary: rgb(1, 39, 1);  
+$text-alternative:  rgba(1, 19, 1, 0.847);
 $text-color:black;
 $base:  rgb(248, 237, 223);
 
+$color: (
+    btn_enviar: rgba(82, 140, 82, 0.555),
+    btn_borrar: rgba(238, 204, 91, 0.543),
+);

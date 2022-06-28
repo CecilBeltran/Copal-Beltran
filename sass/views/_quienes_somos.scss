@@ -1,0 +1,46 @@
+ .box__quienes { 
+    max-width: 1200px;
+    max-height: 100%;
+    margin-top: 60px;
+        .fondo__quienes { 
+        background-image: url(../img_3_FOTO_COPAL.JPG);
+        filter: opacity(15%);
+        position: absolute;    
+        box-sizing: content-box;
+        max-width: 1200px; 
+        max-height: 400px; 
+            .imagen__fondo__quienes {
+            height: 400px; 
+            }
+        }
+        #reseña {
+        display: flex;
+        outline: seagreen 2px; 
+        max-width: 400px;
+        max-height: auto;
+        font-family:'Roboto Flex', sans-serif ;
+        text-align: center;
+        font-weight: 300;
+        justify-content: center;
+        flex-grow: 1;
+        line-height: normal;
+            & p {
+            top: $spacing-large;  
+            text-align: justify; 
+            width: 100%; 
+            display: inline-block;
+            margin: $spacing-large;
+            font-size: $text-large; 
+            }
+        }
+        .gif {
+        justify-content: right; 
+        box-sizing: border-box; 
+        max-width: 500px; 
+        max-height: 400px; 
+        object-fit: cover;
+            img { width: 100%; 
+            height: 100%; 
+        }
+    }
+}

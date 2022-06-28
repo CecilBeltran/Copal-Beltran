@@ -1,0 +1,85 @@
+/*media queries*/
+
+@media screen and (max-width:1000px ){ 
+    body {  background-color: $base;
+  } 
+   .galeria__card { margin: 5%; 
+      margin-left: 10%;
+      flex-basis: 300px; 
+      width: 60%; 
+      height: 60%; 
+ }
+   .imagen__fondo .marca__de__agua__img {
+      height: 100%;   
+  }
+ }
+ 
+ @media screen and (max-width: 900px) { 
+   body {  max-width: 800px;
+      max-height: 100%;
+  }
+   main {max-width: 800px; 
+      max-height: 100%;
+  }
+   .box__contacto { display: block;
+   }
+   #pag__home { margin: 0;
+      .contenedor__carrousel { display: block;
+      margin: auto;
+         .texto { margin-left: 150px;
+            & p {  font-size: $text-medium; 
+            box-sizing: border-box; 
+            padding: 1%; 
+            height: 50%;
+            width: 100%;    
+            }
+         }
+         .carousel {  max-height: 70%; 
+          margin-bottom: $spacing-large; 
+          margin-right: 0px;
+         }
+      } 
+   }  
+     .box__quienes { flex-direction: column; 
+      align-items: center; 
+      gap: $spacing-medium; 
+      height: 100%;; 
+         #reseña { margin-top: $spacing-small; 
+         max-width: 75%; 
+         height: 50%;
+         font-size: $text-xsmall; 
+            & p{ font-size: $text-medium;
+            margin: 5% ;
+            max-width: 50%x; 
+            height: 50%; 
+            overflow: scroll;
+            }
+         }
+      }
+     footer {max-width: 800px; 
+      max-height: 70px; 
+   }
+}
+ 
+         
+ 
+ @media screen and (max-width: 640px) { 
+   .texto p {  font-size: $text-xsmall; 
+  }
+   .video { width: 100%; height: 100%;
+  }
+   h1 { font-size: $text-medium;
+  }
+}
+ 
+ 
+ @media screen and (max-width: 450px) { 
+   .texto { margin:auto;
+      & p {  font-size: $text-xsmall; 
+      box-sizing: border-box; 
+      padding: 1%; 
+     }  
+  }
+   .anuncio p{  font-size: $text-xsmall; 
+  }
+}

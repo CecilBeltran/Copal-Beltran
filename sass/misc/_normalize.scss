@@ -24,11 +24,11 @@ h1 {
     width: 100%;
 }
 h2 { 
-    color:aliceblue;
+    color:$text-color;
     text-align: center;
     margin:0;
-    font-size: 30px;
-    margin-bottom: 10px;
+    font-size: $text-large;
+    margin-bottom:$spacing-small;
 }
 main { 
     display: flex;

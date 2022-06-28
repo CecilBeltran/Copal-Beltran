@@ -134,9 +134,9 @@ textarea {
  max-width: 1200px; 
  max-height: 400px; 
 }
-.imagen__fondo__incienso {
- width: 1200px;
- height: 400px;
+.imagen__incienso__fondo {
+   width: 1200px;
+   height: 400px;
 }
 .box__quienes { 
  max-width: 1200px;
@@ -294,12 +294,12 @@ main {
  margin-right: var(--spacing-large);
  width: 60%; 
  height: 80%;}
-
+/*
 .container-fluid {
  background-color:var(--base); 
  filter: brightness(1.1);
  mix-blend-mode: multiply; max-height: 100%;
-}
+}*/
 .navbar-expand-lg  {
  filter: brightness(1.1);
  mix-blend-mode: multiply; 

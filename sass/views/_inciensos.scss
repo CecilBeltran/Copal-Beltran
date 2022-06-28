@@ -1,0 +1,65 @@
+/*inciensos*/
+.inciensos__galeria { 
+    display: flex; 
+    flex-wrap: wrap;
+    max-width: 1200px; 
+    height: 100%;
+    margin-bottom: $spacing-large;
+    .imagen__incienso {
+        max-width: 1200px;
+        max-height: 400px; 
+        display: strech;
+        background-image: url(../IMAGENES/gradiente.png);
+        filter: opacity(15%);
+        position: absolute; 
+        background-size: cover;
+        background-repeat: no-repeat; 
+        .imagen__incienso__fondo {
+            width: 1200px;
+            height: 400px;
+        }
+    }
+    .galeria{  
+        height:auto auto; 
+        display: flex; 
+        flex-wrap: wrap;
+        flex-grow: 1 ;  
+        max-width: 1200px;
+        max-height: 100%;
+        align-content: stretch;
+        scroll-behavior: smooth;    
+        &__card {
+            width: 200px;
+            height: 100%;
+            text-align: center;
+            padding: $spacing-xsmall;
+            margin: $spacing-xsmall;
+            display: inline-block; 
+            font-family: Arial, Helvetica, sans-serif; 
+            font-size: $text-medium; 
+            font-weight: 300; 
+            color:$text-color;
+            justify-content: center;
+            align-content: center; 
+            box-sizing: border-box; 
+            .boton__comprar { 
+                background-color:$base;
+                color: $text-color;
+                border: #f5f8f5;
+                padding: $spacing-small;
+                &:hover { border: 2px solid #4CAF50;
+                }
+            } 
+            img {
+                width: 150px;
+                height: 150px;
+            }
+            p { 
+                margin: 0px;
+                padding-top: $spacing-xsmall;
+                padding-bottom: $spacing-xsmall;
+                height: auto;
+            }
+        }     
+    }  
+} 
