@@ -234,13 +234,13 @@ footer {
     margin-right: 80px;
     height: 100%; }
 
-/*saumadores*/
-.saumadores__galeria {
+/*sahumadores*/
+.sahumadores__galeria {
   display: flex;
   max-width: 1200px;
   height: 100%;
   margin-bottom: 50px; }
-  .saumadores__galeria .galeria {
+  .sahumadores__galeria .galeria {
     height: auto auto;
     display: flex;
     flex-wrap: wrap;
@@ -249,7 +249,7 @@ footer {
     max-height: 100%;
     align-content: stretch;
     scroll-behavior: smooth; }
-    .saumadores__galeria .galeria__card {
+    .sahumadores__galeria .galeria__card {
       width: 200px;
       height: 300px;
       text-align: center;
@@ -263,17 +263,17 @@ footer {
       justify-content: center;
       align-content: center;
       box-sizing: border-box; }
-      .saumadores__galeria .galeria__card .boton__comprar {
+      .sahumadores__galeria .galeria__card .boton__comprar {
         background-color: #f8eddf;
         color: black;
         border: #f5f8f5;
         padding: 10px; }
-        .saumadores__galeria .galeria__card .boton__comprar:hover {
+        .sahumadores__galeria .galeria__card .boton__comprar:hover {
           border: 2px solid #4CAF50; }
-    .saumadores__galeria .galeria img {
+    .sahumadores__galeria .galeria img {
       width: 150px;
       height: 150px; }
-    .saumadores__galeria .galeria p {
+    .sahumadores__galeria .galeria p {
       margin: 0px;
       padding-top: 5px;
       padding-bottom: 5px;
