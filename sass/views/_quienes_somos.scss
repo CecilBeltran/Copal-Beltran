@@ -1,3 +1,4 @@
+ /*quienes somos*/
  .box__quienes { 
     max-width: 1200px;
     max-height: 100%;
@@ -33,13 +34,13 @@
             font-size: $text-large; 
             }
         }
-        .gif {
+        .video {
         justify-content: right; 
         box-sizing: border-box; 
         max-width: 500px; 
         max-height: 400px; 
         object-fit: cover;
-            img { width: 100%; 
+            video { width: 100%; 
             height: 100%; 
         }
     }
