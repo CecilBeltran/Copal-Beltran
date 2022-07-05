@@ -1,17 +1,20 @@
- /*quienes somos*/
- .box__quienes { 
+/*quienes somos*/
+.box__somos { 
+display:block;    
+    .box__quienes { 
     max-width: 1200px;
     max-height: 100%;
     margin-top: 60px;
+    display: flex;
         .fondo__quienes { 
         background-image: url(../img_3_FOTO_COPAL.JPG);
         filter: opacity(15%);
         position: absolute;    
         box-sizing: content-box;
         max-width: 1200px; 
-        max-height: 400px; 
+        max-height: 600px; 
             .imagen__fondo__quienes {
-            height: 400px; 
+            height: 100%; 
             }
         }
         #reseña {
@@ -42,6 +45,36 @@
         object-fit: cover;
             video { width: 100%; 
             height: 100%; 
+        }
+    }
+}
+    .contenedor__quienes { 
+    margin-top:100px; 
+    max-width: 1200px;
+        .box__pag__quienes {
+        max-width: 700px ;
+        max-height: 400px;
+            .box__pag__quienes { 
+            width: 100%;
+            height: 100%;
+            }
+        }
+        .box__pag__naturaleza{
+        filter: brightness(1.1);
+        mix-blend-mode: multiply;
+        }
+        .box__info__quienes { 
+        margin: 30px;
+            .box__title { 
+            margin-top: 100px;
+            font-size: 35px;
+            color: $text-primary ;
+            }
+            .box__text { 
+            margin-top: 70px;
+            margin-bottom: 70px;
+            font-size: 30px;
+            color: $text-alternative;}
         }
     }
 }

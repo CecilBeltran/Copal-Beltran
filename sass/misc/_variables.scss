@@ -21,13 +21,12 @@ $spacing : (
 );
 
 
-
 /*colors*/
-$text-primary: rgb(1, 39, 1);  
-$text-alternative:  rgba(1, 19, 1, 0.847);
+$text-primary: rgba(72, 105, 72, 0.877);  
+$text-alternative:  rgb(16, 96, 16);
 $text-color:black;
-$base:  rgb(248, 237, 223);
-
+$base:   #E9C46A;
+$color-btn: rgb(87, 117, 144);
 $color: (
     btn_enviar: rgba(82, 140, 82, 0.555),
     btn_borrar: rgba(238, 204, 91, 0.543),
