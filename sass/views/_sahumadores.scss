@@ -5,8 +5,23 @@ flex-wrap: wrap;
 max-width: 1200px;
 height: 100%;
 margin-bottom: $spacing-large;
+    .imagen__incienso {
+    max-width: 1200px;
+    height: 100%; 
+    display: strech;
+    background-image: url(../IMAGENES/gradiente.png);
+    filter: opacity(50%);
+    position: absolute; 
+    background-size: cover;
+    background-repeat: no-repeat; 
+        .imagen__incienso__fondo {
+        width: 1169px;
+        height: 100%;
+    }
+}
     .galeria{  
-    height:auto auto; 
+    height:auto auto;
+    position: relative; 
     display: flex; 
     flex-wrap: wrap;
     flex-grow: 1 ;  
