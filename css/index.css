@@ -522,7 +522,8 @@ footer {
     max-width: 100%;
     margin: 0px; }
     .box__pag img {
-      max-width: 100%; }
+      max-width: 100%;
+      margin-bottom: 20px; }
     .box__pag .box__text {
       font-size: 12px; }
       .box__pag .box__text p {
@@ -549,8 +550,8 @@ footer {
 
 @media screen and (max-width: 450px) {
   .carousel {
-    max-width: 300px;
-    margin: 0; }
+    max-width: 100%;
+    margin: 10px; }
     .carousel .texto {
       max-width: 300px; }
       .carousel .texto p {
@@ -562,9 +563,10 @@ footer {
   .box {
     max-width: 300px; }
     .box .box__img {
-      max-width: 100%; }
+      max-width: 300px;
+      margin: 0; }
       .box .box__img img {
-        max-width: 320px; }
+        max-width: 100%; }
     .box .box__info {
       max-width: 100%; }
   .inciensos__galeria {
@@ -581,8 +583,8 @@ footer {
     margin: 0px; }
     .galeria .galeria__card {
       margin-left: 30px;
-      max-width: 200px;
-      max-height: 290px; }
+      max-width: 230px;
+      max-height: 330px; }
       .galeria .galeria__card img {
         max-width: 80%;
         max-height: 50%; }
