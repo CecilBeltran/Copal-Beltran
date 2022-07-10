@@ -7,7 +7,6 @@ max-width: 1200px;
 max-height: 100%;
 }
 body { 
-background-color: #E9C46A;
 font-family: 'Roboto Flex', sans-serif; 
 max-width: 100%; 
 max-height: 100%;
@@ -15,7 +14,7 @@ margin: auto;
 padding: 0;;
 }
 h1 {
-font-weight: 300; 
+font-weight: 800; 
 font-size: 40; 
 text-align: end;
 padding-right: 100px;
@@ -28,6 +27,7 @@ color:$text-color;
 text-align: center;
 margin:0;
 font-size:35 ;
+font-weight: 600;
 margin-bottom:$spacing-small;
 }
 main { 

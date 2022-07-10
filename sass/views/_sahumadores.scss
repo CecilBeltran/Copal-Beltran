@@ -5,7 +5,8 @@ flex-wrap: wrap;
 max-width: 1200px;
 height: 100%;
 margin-bottom: $spacing-large;
-    .imagen__incienso {
+    .imagen__incienso { 
+    margin-left: 12px;
     max-width: 1200px;
     height: 100%; 
     display: strech;
@@ -20,6 +21,7 @@ margin-bottom: $spacing-large;
     }
 }
     .galeria{  
+    margin-left: 12px;
     height:auto auto;
     position: relative; 
     display: flex; 
