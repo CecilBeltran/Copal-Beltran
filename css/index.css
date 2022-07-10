@@ -479,7 +479,7 @@ footer {
       display: block;
       max-width: 800px; }
       #pag__home .contenedor__carrousel .texto {
-        width: 70%; }
+        width: 100%; }
         #pag__home .contenedor__carrousel .texto p {
           font-size: 20px;
           box-sizing: border-box;
